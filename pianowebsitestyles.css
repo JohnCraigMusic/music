@@ -1,0 +1,187 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url("pianobackground.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      margin: 0;
+    }
+    
+    .top-bar {
+      background-color: #2f2f2f;
+      text-align: center;
+      padding: 10px 0;
+      margin: 0;
+    }
+    .emptycontainer {
+      font-size: 0;
+    }
+
+    .top-bar-button {
+      display: inline-block;
+      margin: 0 10px;
+      font-size: 18px;
+      text-decoration: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: 2px solid transparent;
+      width: 80px;
+    }
+    
+    .maincontainer {
+      max-width: 800px;
+      text-align: left;
+      margin: 10px auto;
+      background-color: #eeeeee;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 20px;
+      margin-top: 20px;
+    }
+    
+    .subcontainer {
+      max-width: 800px;
+      text-align: left;
+      margin: 20px auto;
+      background-color: #eeeeee;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 20px;
+      margin-bottom: 10px;
+      color: black;
+    }
+    
+    .ratessubcontainer {
+      max-width: 800px;
+      text-align: center;
+      margin: 20px auto;
+      background-color: #eeeeee;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 20px;
+      margin-bottom: 10px;
+    }
+      
+    h1 {
+      color: white; 
+      font-size: 32px;
+      margin: 0;
+    }
+    
+    h2, h3, h4 {
+      color: white;
+      font-size: 24px;
+      margin: 0;
+    }
+    
+    p {
+      color: black;
+      font-size: 18px;
+    }
+
+    a2 {
+      color: white;
+      font-size: 28px;
+    }
+      
+    .cta-buttons {
+      margin-top: 30px;
+      text-align: center;
+    }
+    
+    .cta-button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 18px;
+      text-decoration: none;
+      color: black;
+      border-radius: 5px;
+    }
+    
+    .phone-button {
+      background-color: #5ac7ff;
+    }
+    
+    .email-button {
+      background-color: #5ac7ff;
+    }
+    
+    .header {
+      max-width: 800px;
+      text-align: left;
+      padding-left: 0px;
+      padding-top: 40px;
+      padding-bottom: 2px;
+      margin: 0 auto;
+    }
+    
+    .subheader {
+      max-width: 800px;
+      text-align: left;
+      margin: 20px auto;
+      padding-left: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+    
+    .rate-box {
+      border: 2px solid clear;
+      border-radius: 5px;
+      padding: 0px;
+      margin-bottom: 10px;
+      margin-left: 0px;
+      margin-right: 0;
+      display: inline-block;
+      width: 150px;
+      background-color: #5ac7ff;
+    }
+    
+    .rate-label {
+      font-weight: bold;
+      text-align: center;
+    }
+    
+    .rate-value {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .split-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .split-box {
+      flex: 1 1 50%;
+      padding: 0px;
+    }
+    .large-button {
+      display: inline-block;
+      padding: 50px 50px;
+      font-size: 24px;
+      text-decoration: none;
+      border-radius: 0px;
+      width: 150px;
+      height: 200px;
+      text-align: center;
+      margin-bottom: 50px;
+      
+    }
+    
+    .blue-button {
+      background-color: #5ac7ff;
+      color: black;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+    
+    .green-button {
+      background-color: lightsteelblue;
+      color: black;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+

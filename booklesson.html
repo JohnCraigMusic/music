@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="pianowebsitestyles.css">
+      <link rel="stylesheet" type="text/css" href="cfstyles.css">
+      <script src="https://kit.fontawesome.com/1d5e0ee38e.js" crossorigin="anonymous"></script>
+    </head>
+    
+    
+    <body>
+      <div class="top-bar">
+        <a href="home.html" class="top-bar-button" style="color: white;">Home</a>
+        <a2 style="colour: white";>|</a2>
+        <a href="aboutme.html" class="top-bar-button" style="color: white;">About Me</a>
+        <a2 style="colour: white";>|</a2>
+        <a href="booklesson.html" class="top-bar-button" style="color: white; width: 150px;">Book Lesson</a>
+      </div>
+
+      <div class="header">
+        <h1 style="color: white; font-size: 36px;">Book a Lesson!</h1>
+      </div>
+        
+      <hero>
+        <form action="https://formsubmit.co/johncraigmusicenquiry@gmail.com" method="POST">
+            <div class="row">
+                <div class="input-group">
+                    <input type="text" id="Full Name" required>
+                    <label for="Full Name"><i class="fa-solid fa-user"></i> Full Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="Phone No." required>
+                    <label for="Phone No."><i class="fa-solid fa-phone"></i> Phone No.</label>
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <input type="email" id="Email" required>
+                <label for="Email"><i class="fa-solid fa-envelope"></i> Email</label>
+            </div>
+            <div class="input-group">
+                <textarea id="Extra Details" rows="8" required></textarea>
+                <label for="Extra Details"><i class="fas fa-comments"></i> When are you free?</label>
+            </div>
+            <button type="submit">Submit <i class="fas fa-paper-plane"></i></button>
+        </form>
+      </hero>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    </body>
+</html>
